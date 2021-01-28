@@ -1,0 +1,16 @@
+  body {
+    font-family: sans-serif;
+  }
+
+  .products {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product-item {
+    border: solid 1px black;
+    padding: 10px;
+  }
+
+  
+  
