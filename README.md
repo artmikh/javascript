@@ -1,2 +1,0 @@
-# javascript
-Продвинутый курс Javascript
