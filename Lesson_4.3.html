@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 4.3</title>
+</head>
+<body>
+<script>
+
+    let name = 'Artem ';
+    let phone = '+7(000)000-0000 ';
+    let email = 'm6y-.m6a@ilm6ai.lru ';
+
+    console.log(/^[a-z\-]+\b/gi.test(name)); // Проверка имени. добавил еще дефис для двойных имен
+    console.log(/^(\+\d{1}\(\d{3}\)\d{3}\-\d{4})\b/.test(phone)); // Проверка телефона на соответствие маске
+    console.log(/^([\w\-\.]+\@[\w]+\.[a-z]+)\b/.test(email)); // Имя_пользователя может содержать буквы, цифры, знаки (- и .), домен буквы и цифры, а зона только буквы
+    
+</script>
+</body>
+</html>
